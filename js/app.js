@@ -4,11 +4,10 @@
 /* Pari e Dispari */
 
 //inserire numero
-let input = parseInt(prompt("inserisci numero da 1 a 5"));
-while (input <= 5) {
+let input;
+do{
     input = parseInt(prompt("inserisci numero da 1 a 5"));
-    console.log('ok')
-}
+}while (input >5)
 
 console.log('numero casuale: ' + random());
 
@@ -20,8 +19,8 @@ pariDispari(somma);
 
 
 //generare numero random con funzione
-function random(numRandom) {
-    numRandom = Math.floor(Math.random() * 5);
+function random() {
+    const numRandom = Math.floor(Math.random() * 5);
     return numRandom;
 }
 
