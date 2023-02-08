@@ -1,6 +1,19 @@
 /* Palidroma */
-//const nome = parseInt(prompt("inserisci nome"));
-
+const nome = parseInt(prompt("inserisci nome"));
+/*function palindromo(nome) {
+    let lowerCaseStr = nome.toLowerCase();
+    let strLength = lowerCaseStr.length;
+    let halfLength = Math.floor(strLength / 2);
+  
+    for (let i = 0; i < halfLength; i++) {
+      if (lowerCaseStr[i] !== lowerCaseStr[strLength - 1 - i]) {
+        console.log('non è polimorfa')
+      }
+    }
+  
+    console.log(' è polimorfa')
+  }
+  
 /* Pari e Dispari */
 
 //inserire numero
